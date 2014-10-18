@@ -1,0 +1,29 @@
+package %s;
+
+import org.ofx.core.screen.Screen;
+
+public enum Screens implements Screen
+{
+     %s
+
+    private final String title;
+    private final String path;
+
+    Screens(String title, String path)
+    {
+        this.title = title;
+        this.path = path;
+    }
+
+    @Override
+    public String getTitle()
+    {
+        return title;
+    }
+
+    @Override
+    public String getPath()
+    {
+        return path;
+    }
+}
