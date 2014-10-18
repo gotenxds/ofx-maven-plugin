@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.stream.Stream;
 
-public class ScreensFinder
+class ScreensFinder
 {
     public Stream<Path> getScreensFrom(Path porjectPath)
     {

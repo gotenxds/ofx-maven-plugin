@@ -13,7 +13,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 @Mojo(name = "generateScreensEnum")
-public class ScreenEnumGenerator extends AbstractMojo
+class ScreenEnumGenerator extends AbstractMojo
 {
     @Parameter(property = "project")
     private MavenProject project;

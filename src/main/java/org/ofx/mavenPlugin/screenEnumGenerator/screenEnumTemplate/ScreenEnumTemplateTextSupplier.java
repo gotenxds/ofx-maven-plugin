@@ -3,7 +3,7 @@ package org.ofx.mavenPlugin.screenEnumGenerator.screenEnumTemplate;
 import java.util.Optional;
 import java.util.function.Supplier;
 
-public class ScreenEnumTemplateTextSupplier implements Supplier<String>
+class ScreenEnumTemplateTextSupplier implements Supplier<String>
 {
     private Optional<String> templateTextOptional = Optional.empty();
 

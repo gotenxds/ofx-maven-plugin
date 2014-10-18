@@ -5,7 +5,7 @@ import com.google.common.io.Resources;
 
 import java.io.IOException;
 
-public class ScreenEnumTemplateReader
+class ScreenEnumTemplateReader
 {
     public String read()
     {

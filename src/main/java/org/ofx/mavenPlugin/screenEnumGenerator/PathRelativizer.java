@@ -3,7 +3,7 @@ package org.ofx.mavenPlugin.screenEnumGenerator;
 import java.nio.file.Path;
 import java.util.function.Function;
 
-public class PathRelativizer implements Function<Path, String>
+class PathRelativizer implements Function<Path, String>
 {
     private final Path fxmlPath;
 
